@@ -171,4 +171,5 @@ function testModel(model, inputData, normalizationData) {
         }
     );
 }
+testModel(model, data, tensorData);
 document.addEventListener('DOMContentLoaded', run);
